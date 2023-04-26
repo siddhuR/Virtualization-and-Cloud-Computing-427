@@ -1,0 +1,63 @@
+procedure for taking Snapshot
+
+1. select the vertual machine and select vm-> snapshot -> take snapshot
+2. type a unique name for the snapshot
+3. type a Description for the snapshot
+4. click ok to take the snapshot
+
+
+Reverting  the snapshot
+
+-->Take or revert to a snapshot at power off
+
+1. select the vertual machine and select vm settings
+2. Open the options tab and select snapshot
+3. Select a power off option
+	1. just power off
+	2. Revert to snapshot
+	3. Take a new snapshots
+	4. Ask me
+4. Click OK to save the changes
+
+-->>>
+
+Enable Auto Protect Snapshot
+
+1. Select the Vertual Machine and select VM-settings.
+2. Open the options Tab. Select AutoProtect and select enable autoprotect.
+3. select the interval between snapshots.
+	a. Half-Hourly
+	b. Hourly
+	C. Daily
+4. Select the maximum number of AutoProtect snapshots to retain.
+5. Select OK to save your changes.
+
+
+--->>
+Enable Background Snapshots
+
+1. Select Edit > Preferances.
+2. On the priority tab.Select take snapshots in the Background.
+3. Click OK to save the changes.
+4. Restart the Virtual Machine
+
+--->>>
+
+Delete A Snapshot
+1. Select the vertual machine and select VM > Snapshot > Snapshot Manager
+2. If you are deleting the Autoprotected snapshot. select Autoprotected snapshot
+3. select the snapshot
+4. select an option to delete the snapshot
+5. click close to close the snapshot manager
+
+
+=====>>>>>>>>>>
+
+Cloning
+
+1.Select VM Machine
+2.select > VM > Manage > clone
+3.pop up  window will be visible -> click on Next
+4.select the current state in Virtual Machine.
+5.click on Next
+6.select full clone or linked clone
